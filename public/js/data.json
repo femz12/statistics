@@ -1,0 +1,68 @@
+{
+  "status": true,
+  "data": {
+    "quiz": {
+      "Id": 1,
+      "name": "Introduction Quiz",
+      "description": ""
+    },
+    "config": {
+      "shuffleQuestions": true,
+      "showPager": false,
+      "allowBack": true,
+      "autoMove": false,
+      "allowReview": false,
+      "time": "2017-10-09",
+      "is_timed": true,
+      "total_question": "10",
+      "attempt_allowed": 4,
+      "has_deadline": false,
+      "is_gradable": false,
+      "score": "10.00"
+    },
+    "questions": [
+      {
+      "Id": 8,
+      "Name": "What is your name?",
+      "Options": [{
+        "Id": 93,
+        "QuestionId": 8,
+        "Name": "My name is James",
+        "IsAnswer": false
+      },
+        {
+        "Id": 94,
+        "QuestionId": 8,
+        "Name": "James the king is my name",
+        "IsAnswer": true
+      },
+        {
+          "Id": 95,
+          "QuestionId": 8,
+          "Name": "NIV",
+          "IsAnswer": false
+        }
+      ],
+      "Answered": []
+    },
+      {
+        "Id": 9,
+        "Name": "Where do I live?",
+        "Options": [{
+          "Id": 88,
+          "QuestionId": 9,
+          "Name": "I live in Ogede Igbo",
+          "IsAnswer": false
+        },
+          {
+            "Id": 89,
+            "QuestionId": 9,
+            "Name": "Ogede Igbo",
+            "IsAnswer": true
+          }
+        ],
+        "Answered": []
+      }
+    ]
+  }
+}
